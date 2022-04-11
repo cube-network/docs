@@ -3,7 +3,7 @@
 ## Download
 Download source code via `git`
 ```
-    git clone https://github.com/cube-network/Cube.git
+git clone https://github.com/cube-network/Cube.git
 ```
 ## Install Golang
 Reference: [Go Download and install](https://golang.org/doc/install)
@@ -13,7 +13,7 @@ Reference: [Go Download and install](https://golang.org/doc/install)
 cd /path/to/cubechain
 make geth
 ```
-> If you want to use cross compile, like compiling on `Mac` for `Linux`, use `make geth-linux`, `make geth-linux-amd64`, etc.
+> If you want to use cross compile, like compiling on `Mac` for `Linux`, use `make build_linux_node` in /path/to/cubechain/deployment/cross with docker started
 
 
 After compilation completed, the generated binary is in the folder `build/bin`.
