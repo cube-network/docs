@@ -32,7 +32,8 @@ Or you can also looking to the `UTC-**`file under the `data/keystore` path to fi
         "constantinopleBlock": 0,
         "petersburgBlock": 0,
         "istanbulBlock": 0,
-        "muirGlacierBlock": 0,
+        "berlinBlock": 0,
+        "londonBlock": 0,
         "chaos": {
             "period": 3,
             "epoch": 200

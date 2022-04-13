@@ -28,7 +28,8 @@ The name of chain config item is `config`,including `chainId`, hard fork info, c
         "constantinopleBlock": 0,
         "petersburgBlock": 0,
         "istanbulBlock": 0,
-        "muirGlacierBlock": 0,
+        "berlinBlock": 0,
+        "londonBlock": 0,
         "chaos": {
             "period": 3,
             "epoch": 200
@@ -290,7 +291,8 @@ One thing need to be explained more specifically is `rate`. the validator can ta
         "constantinopleBlock": 0,
         "petersburgBlock": 0,
         "istanbulBlock": 0,
-        "muirGlacierBlock": 0,
+        "berlinBlock": 0,
+        "londonBlock": 0,
         "chaos": {
             "period": 3,
             "epoch": 200
@@ -388,7 +390,8 @@ One thing need to be explained more specifically is `rate`. the validator can ta
         "constantinopleBlock": 0,
         "petersburgBlock": 0,
         "istanbulBlock": 0,
-        "muirGlacierBlock": 0,
+        "berlinBlock": 0,
+        "londonBlock": 0,
         "chaos": {
             "period": 3,
             "epoch": 200
