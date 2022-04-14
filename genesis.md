@@ -41,7 +41,7 @@ Specifically, `chainId` is block chain identifier which was defined in EIP-155 t
 
 `homesteadBlock` ~ `muirGlacierBlock` are the hard fork info inherited from ethereum, which should be all zero
 
-`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval(whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch
+`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval(whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch.
 
 One thing should be mentioned is that the chain config will not be included in the genesis block although it will be persisted on disk. Therefore it could be changed afterwards.
 
@@ -136,7 +136,7 @@ Staking contract is used to manage validators as well as staked assets. Demo con
 - `releaseCnt`: the total count of release period
 - `totalRewards`: total rewards of staking in wei
 - `rewardsPerBlock`: rewards per Block of the first release period in wei
-- `epoch`: the number of blocks in one epoch
+- `epoch`: the number of blocks in one epoch, must be equal to `config.chaos.epoch`.
 - `ruEpoch`: the number of blocks to update block rewards
 - `communityPool`: the address of communityPool
 - `bonusPool`: the address of bonusPool
@@ -272,7 +272,7 @@ the info of validator contains:
 - `address`: the address of validator
 - `manager`: the address of manager of validator
 - `rate`: the percentage of commission for all block rewards
-- `stake`: the amount of staking native token
+- `stake`: the amount of staking native token, the unit of this feild is `CUBE`
 - `acceptDelegation`: whether accepting delegation or not
 
 One thing need to be explained more specifically is `rate`. the validator can take rate% of block rewards as commission, and the left part is the one that will be allocated according to their token staked.
