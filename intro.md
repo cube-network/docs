@@ -29,46 +29,41 @@ To help developers’ evolvement at every stage
 </tr>
 <tr style="background:rgba(0,0,0,0)" >
 <tr style="background:rgba(0,0,0,0)" >
-    <td rowspan=9 >One</td>
-    <td rowspan=9 >
-Featrues one</td>
-    <td rowspan=9 >2022 Q1-2022 Q2</td>
+    <td rowspan=6 >One</td>
+    <td rowspan=6 >
+Chaos Consensus v1.0</td>
+    <td rowspan=6 >2022 Q1-2022 Q2</td>
     <td rowspan=3 >Public Beta</td><td>Higher transaction performance</td></tr>
 <tr style="background:rgba(0,0,0,0)" ><td>Lower transaction costs</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>Fast finality</td></tr>
 <tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Node Election</td><td>More decentralized and safer</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>Complete mainstream assets</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>Basic tools in place</td></tr>
-<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 > [TBD] </td><td> [TBD] </td></tr>
-<tr style="background:rgba(0,0,0,0)"><td> [TBD] </td></tr>
-<tr style="background:rgba(0,0,0,0)"><td> [TBD] </td></tr>
 
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5 > Two </td><td rowspan=5 > 
-chaos v2.0  </td> <td rowspan=5 >2022 Q3 </td> <td rowspan=5 > To be announced  </td> <td> [TBD] </td></tr>
-<tr style="background:rgba(0,0,0,0)"><td> [TBD] </td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
+
+<tr style="background:rgba(0,0,0,0)"><td rowspan=4 > Two </td><td rowspan=4 > 
+chaos v2.0  </td> <td rowspan=4 >2022 Q3 </td> <td rowspan=4 > To be announced  </td> <td> 5000TPS </td></tr>
+<tr style="background:rgba(0,0,0,0)"><td> DPoS + random selection </td></tr>
+<tr style="background:rgba(0,0,0,0)"><td> Streamline Consensus </td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>Pipelined processing</td></tr>
 
 <tr style="background:rgba(0,0,0,0)"><td rowspan=3> Three </td> <td rowspan=3>
-[TBD]
-</td><td rowspan=3>2022 Q4</td><td rowspan=3>To be announced</td><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5> Four </td> <td rowspan=5>
-[TBD] 
-</td> <td rowspan=5>2023 Q2</td> <td rowspan=5>To be announced</td><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5> Five </td> <td rowspan=5>
-[TBD] 
-</td> <td rowspan=5>2024</td> <td rowspan=5>To be announced</td><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>[TBD]</td></tr>
+Time-crossing cross chain protocol
+</td><td rowspan=3>2022 Q4</td><td rowspan=3>To be announced</td><td>Multi-chain structure</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>Cross Channel: Cross-chain contract calls</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>IBC Compatibility</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td rowspan=3> Four </td> <td rowspan=3>
+Settlement Layer & Execution Layer structure
+</td> <td rowspan=3>2023 Q2</td> <td rowspan=3>To be announced</td><td>built-in Collaborative rollup</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>built-in zkRollup(if zkEVM is ready)</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>extreme scaling</td></tr>
+
+<tr style="background:rgba(0,0,0,0)"><td rowspan=4> Five </td> <td rowspan=4>
+Data Availability 
+</td> <td rowspan=4>2024</td> <td rowspan=4>To be announced</td><td>Data availability sampling</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>Data sharding</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>Proof of Fraud</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>50k+ TPS</td></tr>
 </table>
 
 
