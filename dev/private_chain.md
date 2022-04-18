@@ -140,4 +140,3 @@ Use the same `genesis.json` file for initializing the node. Then go to the node 
 
 If you would like to use docker-compose to deploy and run a private-chain, then you can reference to <https://github.com/cube-network/docs/tree/master/docker/multi>.
 
-> Note: should first put the Linux-amd64 version of `geth` under the `multi` directory.
