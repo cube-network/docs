@@ -39,9 +39,9 @@ Featrues one</td>
 <tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Node Election</td><td>More decentralized and safer</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>Complete mainstream assets</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>Basic tools in place</td></tr>
-<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Ecosystem Incubation</td><td>Technical service systemization</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Basic tool customization</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Convenient asset transfer</td></tr>
+<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 > [TBD] </td><td> [TBD] </td></tr>
+<tr style="background:rgba(0,0,0,0)"><td> [TBD] </td></tr>
+<tr style="background:rgba(0,0,0,0)"><td> [TBD] </td></tr>
 
 <tr style="background:rgba(0,0,0,0)"><td rowspan=5 > Two </td><td rowspan=5 > 
 chaos v2.0  </td> <td rowspan=5 >2022 Q3 </td> <td rowspan=5 > To be announced  </td> <td> [TBD] </td></tr>
