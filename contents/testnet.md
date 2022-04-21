@@ -1,5 +1,7 @@
 # Testnet Info
 
+>TO BE LAUNCH
+
 ## chainid
 ```
 1819
