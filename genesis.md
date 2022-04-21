@@ -32,7 +32,9 @@ The name of chain config item is `config`,including `chainId`, hard fork info, c
         "londonBlock": 0,
         "chaos": {
             "period": 3,
-            "epoch": 200
+            "epoch": 200,
+            "attestationDelay": 2
+
         }
     }
 }
@@ -41,7 +43,7 @@ Specifically, `chainId` is block chain identifier which was defined in EIP-155 t
 
 `homesteadBlock` ~ `muirGlacierBlock` are the hard fork info inherited from ethereum, which should be all zero
 
-`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval(whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch.
+`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval(whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch. `attestationDelay` is the number of blocks, before which we can do consensus.
 
 One thing should be mentioned is that the chain config will not be included in the genesis block although it will be persisted on disk. Therefore it could be changed afterwards.
 
@@ -108,15 +110,12 @@ Staking contract is used to manage validators as well as staked assets. Demo con
 {
     "alloc": {
         "000000000000000000000000000000000000F000": {
-            "balance": "250000900000000000000000000",
+            "balance": "0x0",
             "init": {
                 "admin": "0xd0db65Fc3fa41001C70E8E6F31F837E3010c6F68",
                 "firstLockPeriod": "63072000",
-                "releasePeriod": "30",
+                "releasePeriod": "2592000",
                 "releaseCnt": "48",
-                "totalRewards": "250000000000000000000000000",
-                "rewardsPerBlock": "89363425930000000000000",
-                "epoch": "200",
                 "ruEpoch": "28800",
                 "communityPool": "0x000000000000000000000000000000000000F001",
                 "bonusPool": "0x000000000000000000000000000000000000F002"
@@ -132,16 +131,11 @@ Staking contract is used to manage validators as well as staked assets. Demo con
 `init` is the arguments for contract initalization, which can be interpreted as following：
 - `admin`: contract admin
 - `firstLockPeriod`: first lock period in seconds
-- `releasePeriod`: the number of day in one release period
+- `releasePeriod`: the time of one release period in seconds
 - `releaseCnt`: the total count of release period
-- `totalRewards`: total rewards of staking in wei
-- `rewardsPerBlock`: rewards per Block of the first release period in wei
-- `epoch`: the number of blocks in one epoch, must be equal to `config.chaos.epoch`.
 - `ruEpoch`: the number of blocks to update block rewards
 - `communityPool`: the address of communityPool
 - `bonusPool`: the address of bonusPool
-
-`balance` is equal to total rewards puls the staking number of all the validators
 
 `code` is the deployed bytecode of the contract
 
@@ -205,7 +199,7 @@ GenesisLock is used to manage token locking and release. Demo config is showed a
 {
     "alloc": {
         "000000000000000000000000000000000000F003": {
-            "balance": "3000000000000000000000",
+            "balance": "0x0",
             "init": {
                 "lockedAccounts": [
                     {
@@ -238,8 +232,6 @@ GenesisLock is used to manage token locking and release. Demo config is showed a
 - `lockedAmount`: token locked amount in wei
 - `lockedTime`: token locked time in seconds
 - `periodAmount`: the total amount of periods, which is 30 day in one period
-
-`balance` is equal to the total locked amount of all accounts
 
 `code` is the deployed bytecode of the contract
 
