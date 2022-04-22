@@ -86,6 +86,12 @@ Specifically, `extraData` contains 3 parts: vanity(32 bytes), validator address 
 
 All of the configs are located in `alloc`. It contains the token allocation of external owned accounts as well as system contracts initializations, including Staking, CommunityPool, BonusPool and GenesisLock
 
+Each system contract has been assigned fixed addresses preliminarily
+- Staking Contract:       0x000000000000000000000000000000000000F000
+- CommunityPool Contract: 0x000000000000000000000000000000000000F001
+- BonusPool Contract:     0x000000000000000000000000000000000000F002
+- GenesisLock Contract:   0x000000000000000000000000000000000000F003
+
 #### External owned accounts allocation
 
 Demo config is showed as following:
@@ -116,9 +122,7 @@ Staking contract is used to manage validators as well as staked assets. Demo con
                 "firstLockPeriod": "63072000",
                 "releasePeriod": "2592000",
                 "releaseCnt": "48",
-                "ruEpoch": "28800",
-                "communityPool": "0x000000000000000000000000000000000000F001",
-                "bonusPool": "0x000000000000000000000000000000000000F002"
+                "ruEpoch": "28800"
             },
             "code": "0x608060405260043610620003e35760003560e01c80637bd8d00c1162..."
         }
@@ -134,8 +138,6 @@ Staking contract is used to manage validators as well as staked assets. Demo con
 - `releasePeriod`: the time of one release period in seconds
 - `releaseCnt`: the total count of release period
 - `ruEpoch`: the number of blocks to update block rewards
-- `communityPool`: the address of communityPool
-- `bonusPool`: the address of bonusPool
 
 `code` is the deployed bytecode of the contract
 
@@ -174,9 +176,6 @@ BonusPool is used to manage bonus for staking. Demo config is showed as followin
     "alloc": {
         "000000000000000000000000000000000000F002": {
             "balance": "592000000000000000000",
-            "init": {
-                "stakingContract": "0x000000000000000000000000000000000000F000"
-            },
             "code": "0x6080604052600436106100555760003560e01c8063158ef93e146100..."
         }
     }
@@ -184,8 +183,6 @@ BonusPool is used to manage bonus for staking. Demo config is showed as followin
 ```
 
 `000000000000000000000000000000000000F002` is the address that Cube assignes to BonusPool contract. This address is fixed and thus cannot be customized.
-
-`init.stakingContract` is the address of Staking contract
 
 `balance` is equal to the total bonus of staking
 
