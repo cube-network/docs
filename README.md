@@ -20,11 +20,11 @@ Resources list：
 
 find us via suppport email, or social media.
 
-- Twitter: 
-- Telegram Channel: 
+- Twitter: https://twitter.com/Cube0x
+- Telegram Channel: https://t.me/Cube_Network
 - Medium: 
 - GitHub: https://github.com/cube-network/
-- Mainnet Explorer: https://scan.cube.network/
+- Mainnet Explorer: https://cubescan.network/
 - Documentation: https://docs.cube.network/
 - Website: https://www.cube.network/
 
