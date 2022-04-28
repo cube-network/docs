@@ -1,6 +1,6 @@
 # Consensus
 
-The consensus used in `Cube` is called `Chaos Consensus`, is a hybrid DPoS protocol with random selection, and use BFT attesstation for fast finality. Moreover, the `Chaos` consensus introduce a pipelined procedure through the whole process of consensus. For more detail, see the [technical white paper](/static/CubeChain%20technical%20withe%20paper.pdf ':ignore').
+The consensus used in `Cube` is called `Chaos Consensus`, is a hybrid DPoS protocol with random selection, and use BFT attesstation for fast finality. Moreover, the `Chaos` consensus introduce a pipelined procedure through the whole process of consensus. For more detail, see the [technical white paper](/static/Cubechain_technical_paper.pdf ':ignore').
 
 In here, let us just explain the other aspect of the consensus, **the staking and rewards mechanism**.
 
