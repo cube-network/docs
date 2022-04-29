@@ -72,7 +72,7 @@ Data Availability
 
 - Twitter: https://twitter.com/Cube0x
 - Telegram Channel: https://t.me/Cube_Network
-- Medium: 
+- Medium: https://medium.com/@Cube0x
 - GitHub: https://github.com/cube-network/
 - Mainnet Explorer: https://cubescan.network/
 - Documentation: https://docs.cube.network/
