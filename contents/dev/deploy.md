@@ -23,7 +23,7 @@ ssd iops>5k
 
 ```
 External IP Address
-Port TCP/UDP 32668
+Port TCP/UDP 33688
 ```
 
 ## chain node
@@ -77,7 +77,7 @@ GraphQLVirtualHosts = ["localhost"]
 MaxPeers = 50
 NoDiscovery = false
 
-ListenAddr = ":32668"
+ListenAddr = ":33688"
 EnableMsgEvents = false
 
 [Node.HTTPTimeouts]
