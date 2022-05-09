@@ -25,6 +25,7 @@ wss://ws-testnet-us.cube.network
 
 ## archive nodes
 > There will be a rate limit. Currently is 50r/s per session/IP .
+> 
 > Currently available namespace: ["eth", "net", "web3"]
 
 ```
