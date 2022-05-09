@@ -10,7 +10,7 @@ Download URL: https://metamask.io/
 
 You can add CubeChain mainnet and testnet to Metamask through [chainlist](https://chainlist.org/).
 
-Or add custom network by manually:
+add custom network manually:
 
 ## Mainnet
 
@@ -30,6 +30,6 @@ rpc: https://http-testnet.cube.network
 scan: https://scan-testnet.cube.network/
 ```
 
-# Cointtype for Cube
+# Coint type for Cube
 
 https://github.com/satoshilabs/slips/blob/master/slip-0044.md

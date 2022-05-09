@@ -5,9 +5,9 @@ The consensus used in `Cube` is called `Chaos Consensus`, is a hybrid DPoS proto
 In here, let us just explain the other aspect of the consensus, **the staking and rewards mechanism**.
 
 ## Glossary 
-- validator. Responsible for packaging out blocks for on-chain transactions.
-- active validator. The current set of validators responsible for packing out blocks, with a maximum of 21.
-- epoch. Time interval in blocks, currently 1 epoch = 200 blocks on `Cube`. At the end of each epoch, the blockchain interacts with the system contracts to update active validators.
+- Validator. Responsible for packaging out blocks for on-chain transactions.
+- Active validator. The current set of validators responsible for packing out blocks, with a maximum of 21.
+- Epoch. Time interval in blocks, currently 1 epoch = 200 blocks on Cube. At the end of each epoch, the blockchain interacts with the system contracts to update active validators.
 
 ## System contract
 

@@ -16,7 +16,7 @@ To help developers’ evolvement at every stage
 
 1. Modular layered architecture (divided in three layers: Execution Layer, Settlement Layer and Data Availability Layer), built-in Rollup and extreme scaling, supporting hundreds of thousands of TPS. 
 2. Full compatibility with Ethereum protocols, EVM and Cosmos ecosystem, supporting a seamless migration of applications within the ecosystem. 
-3. Pipelined optimized BFT consensus, combining high throughput, decentralization , security and fast transaction confirmation. 
+3. Pipelined optimized BFT consensus, combining high throughput, decentralization, security and fast transaction confirmation. 
 4. Support DeFi cross-chain calls, multi-chain network structure with own-developed “Time Crossing” decentralized  cross-chain communication protocol.
 
 
@@ -42,7 +42,7 @@ Chaos Consensus v1.0</td>
 
 
 <tr style="background:rgba(0,0,0,0)"><td rowspan=4 > Two </td><td rowspan=4 > 
-chaos v2.0  </td> <td rowspan=4 >2022 Q3 </td> <td rowspan=4 > To be announced  </td> <td> Reach 5000 TPS </td></tr>
+Chaos v2.0  </td> <td rowspan=4 >2022 Q3 </td> <td rowspan=4 > To be announced  </td> <td> Reach 5000 TPS </td></tr>
 <tr style="background:rgba(0,0,0,0)"><td> DPoS + random selection </td></tr>
 <tr style="background:rgba(0,0,0,0)"><td> Streamline Consensus </td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>Pipelined processing</td></tr>
