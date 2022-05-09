@@ -14,11 +14,11 @@ wss://ws-testnet.cube.network
 
 ## explorer
 ```
-https://scan-testnet.cube.network
+https://testnet.cubescan.network
 ```
 
 ## faucet
 
 ```
-https://scan-testnet.cube.network/faucet
+https://faucet.cube.network
 ```

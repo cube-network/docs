@@ -15,7 +15,7 @@ wss://ws-mainnet.cube.network
 
 ## explorer
 ```
-https://scan.cube.network
+https://cubescan.network
 ```
 
 ## P2P Nodes
