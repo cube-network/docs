@@ -39,11 +39,11 @@ The name of chain config item is `config`,including `chainId`, hard fork info, c
     }
 }
 ```
-Specifically, `chainId` is block chain identifier which was defined in EIP-155 to avoid replay attack. Mainnet is 1818, and testnet 1819. Besides, users can customize it when setting up a private chain.
+Specifically, `chainId` is blockchain identifier which was defined in EIP-155 to avoid replay attack. Mainnet is 1818, and testnet 1819. Besides, users can customize it when setting up a private chain.
 
 `homesteadBlock` ~ `muirGlacierBlock` are the hard fork info inherited from ethereum, which should be all zero
 
-`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval(whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch. `attestationDelay` is the number of blocks, before which we can do consensus.
+`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval (whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch. `attestationDelay` is the number of blocks, before which we can do consensus.
 
 One thing should be mentioned is that the chain config will not be included in the genesis block although it will be persisted on disk. Therefore it could be changed afterwards.
 
@@ -70,7 +70,7 @@ As showing above, all the items are basic info in block header.
 
 Among all these items, `nonce` and `mixHash` are something used in PoW, which is deprecated in Cube.
 
-the meaning of other config items are listed as follows：
+the meaning of other config items are listed as follows: 
 - `parentHash`: hash of parent block
 - `number`: block numner
 - `timestamp`: timestamp of block prodution
@@ -80,7 +80,7 @@ the meaning of other config items are listed as follows：
 - `gasUsed`: gas actually used
 - `extraData`: extra data in header
 
-Specifically, `extraData` contains 3 parts: vanity(32 bytes), validator address list, signature(65 bytes). validator address list will be added into extra data automatically by Cube, so we only need to set vanity and signature, which should be all zero in common.
+Specifically, `extraData` contains 3 parts: vanity(32 bytes), validator address list, signature (65 bytes). Validator address list will be added into extra data automatically by Cube, so we only need to set vanity and signature, which should be all zero in common.
 
 ### Accounts and system contacts config
 
@@ -132,7 +132,7 @@ Staking contract is used to manage validators as well as staked assets. Demo con
 
 `000000000000000000000000000000000000F000` is the address that Cube assignes to Staking contract. This address is fixed and thus cannot be customized.
 
-`init` is the arguments for contract initalization, which can be interpreted as following：
+`init` is the arguments for contract initalization, which can be interpreted as following: 
 - `admin`: contract admin
 - `firstLockPeriod`: first lock period in seconds
 - `releasePeriod`: the time of one release period in seconds
@@ -264,7 +264,7 @@ the info of validator contains:
 - `stake`: the amount of staking native token, the unit of this feild is `CUBE`
 - `acceptDelegation`: whether accepting delegation or not
 
-One thing need to be explained more specifically is `rate`. the validator can take rate% of block rewards as commission, and the left part is the one that will be allocated according to their token staked.
+One thing need to be explained more specifically is `rate`. The validator can take rate% of block rewards as commission, and the left part is the one that will be allocated according to their token staked.
 
 ## mainnet
 [TBD]

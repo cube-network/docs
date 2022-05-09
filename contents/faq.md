@@ -1,6 +1,6 @@
 # Metamask Lagging 
 
-Slow response when inputting tansfer amount, fetching gasprice, etc. It is a chrome's known issue according to the following issue：
+Slow response when inputting tansfer amount, fetching gasprice, etc. It is a chrome's known issue according to the following issue:
 
 https://github.com/MetaMask/metamask-extension/issues/10202
 
@@ -10,20 +10,20 @@ Workarounds are:
 
 ![](../images/metamask_lag.jpg)
 
-2）Move to primary monitor is using multiple monitors
+2）Move to primary monitor if using multiple monitors
 
 3）Use other explorers
 
-# transaction pending for a long time
+# Transaction pending for a long time
 
 ## 1）Inappropriate nonce:
 Suggestions:
 
 - Try to reset a appropriate value
-- If you have many pending transactions , please wait for earier transactions confirmed.
+- If you have many pending transactions, please wait for Earlier Are confirmed.
 - metatask--setting-advanced--reset account
-- metatask--setting--advanced--Customize transaction nonce :resend transaction with pending tx's nonce and higher gas price.
+- metatask--setting--advanced--Customize transaction nonce: resend transaction with pending tx's nonce and higher gas price.
 
-## 2) low gas price：
+## 2) Low gas price: 
 - Set a higher gas price and resend
 

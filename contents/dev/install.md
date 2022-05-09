@@ -16,7 +16,7 @@ make geth
 > If you want to use cross compile, like compiling on `Mac` for `Linux`, use `make build_linux_node` in `/path/to/cubechain/deployment/cross` with docker started
 
 
-After compilation completed, the generated binary is in the folder `build/bin`.
+Compilation is completed, the generated binary is in the folder `build/bin`.
 
 ## Run
 By running `./build/bin/geth --help`, we can get all `option` info. Specific usage can refer to [Command-line Options](https://geth.ethereum.org/docs/interface/command-line-options)

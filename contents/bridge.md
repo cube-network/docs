@@ -6,9 +6,9 @@ Cube encourages community developers to provide more decentralized cross-chain s
 
 This document describes the option for project parties to map Tokens from the source chain to Cube on their own.
 
-The project owner **self** maintains the total balance of Token on the multi-chain including Cube, and endorses the credibility of Token.
+The project owner maintains the total balance of tokens on the multi-chain including Cube on his own and endorses the credibility of tokens.
 
-The main processes include：
+The main processes include: 
 
 ```
 1）Initial Preparation

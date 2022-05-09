@@ -29,7 +29,7 @@ Deploy contract to blockchain via wallet such as `MetaMask`.
 
 ![avatar](../images/remix4.jpg)
 
-And then by `MetaMask` the contract deployemnt transaction can be broadcast to the cube chain.
+And then by `MetaMask` the contract deployment transaction can be broadcasted to the Cube chain.
 
 
 ## Truffle
@@ -51,13 +51,13 @@ Web3.js v1.2.1
 ```
 + Create project
 
-First,create folder for project.
+First, create folder for project.
 ```
 mkdir Example
 cd Example
 ```
 
-Then, init project via truffle
+Then, initialize project via truffle
 ```
 truffle init
 ```
@@ -111,7 +111,8 @@ module.exports = {
 
 ```
 + Create contract
-Put custom contracts into folder `contracts` and modify deployment script in folder `migrations`.
+
+Put custom contracts into folder `contracts` and modify the deployment script script in folder `migrations`.
 
 + Deploy contract
 

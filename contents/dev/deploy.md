@@ -1,6 +1,6 @@
 # Deployment
 
-introduce systemd management configs。
+introduce systemd management configs.
 
 ## Hardware
 
@@ -87,7 +87,7 @@ IdleTimeout = 120000000000
 
 ```
 
-use snap sync in the config, if full needed, change this line
+use snap sync in the config, if full needed - change this line
 ```
 SyncMode = "snap"
 ```
@@ -111,14 +111,14 @@ SyncMode = "full"
 --verbosity 3  >> /data/cube/logs/systemd_chain_console.out 2>&1
 ```
 
-if you need to use it as archive node, add：
+if you need to use it as archive node, add: 
 
 ```
 --syncmode full \
 --gcmode archive \
 ```
 
-so：
+so: 
 
 ```
 #!/usr/bin/env bash
@@ -130,7 +130,7 @@ so：
 --verbosity 3  >> /data/cube/logs/systemd_chain_console.out 2>&1
 ```
 
-If no any network flags were provided, the node will connect the cube-mainnet by default. If you want to connect to cube-testnet, add:
+If no network flags were provided, the node will connect the cube-mainnet by default. If you want to connect to cube-testnet, add:
 
 ```
 --testnet

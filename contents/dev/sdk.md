@@ -1,8 +1,8 @@
 # On-chain interaction
 
-`Cube` is compatible with `Ethereum`'s ecosystem，support all `Ethereum`'s `RPC` API and SDK. 
+`Cube` is compatible with `Ethereum`'s ecosystem, support all `Ethereum`'s `RPC` API and SDK. 
 
-Besides, there are a few cube specific `RPC` APIs, showing bellow.
+Besides, there are a few Cube specific `RPC` APIs, showing bellow.
 
 ## Ethereum's RPC
 
@@ -84,7 +84,7 @@ params: [
 
 #### Returns
 ------------
-Returns all penalty transactions submitted for violating the multi sign rule in the block
+Returns all penalty transactions submitted for violating the multi sign rule in the block.
 The submitted penalty transaction body contains two supporting information. The address of to is a special address, which is used to filter transactions
 
 #### Example
