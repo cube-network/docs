@@ -270,7 +270,9 @@ One thing need to be explained more specifically is `rate`. The validator can ta
 [TBD]
 
 ## testnet
+**Hash**: 0xa9458e9e348f5de596918083b203042cbe58f27d222189cd7aae577c9f8be954
 
+**Genesis file**
 ```json
 {
   "config": {
