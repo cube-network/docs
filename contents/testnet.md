@@ -44,6 +44,14 @@ https://testnet.cubescan.network
 https://faucet.cube.network
 ```
 
+## some util contracts
+
+> To be linked to the explorer.
+
+- WCUBE：0xB9164670A2F388D835B868b3D0D441fa1bE5bb00
+- Multicall:  0x5db2AB28beD8EBDDe5F7202F5a11fF7E78Ad1FB5
+- Multicall2: 0xD1C09D6DD5c81d441b2825D69d438BAac791BEeC
+
 ## genesis
 
 **Hash**: 0x2eeaa9dab31682321c7d8afd3ec0ddef772f9361e7f21126e3d17f2756e49482
