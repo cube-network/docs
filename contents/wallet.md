@@ -20,7 +20,7 @@ rpc: https://http-mainnet.cube.network
 scan: https://scan.cube.network/
 ```
 
-[TBD: add images]
+![](./images/metamask-mainnet-add-network.jpg)
 
 ## Testnet
 
@@ -29,6 +29,8 @@ chainid: 1819
 rpc: https://http-testnet.cube.network
 scan: https://scan-testnet.cube.network/
 ```
+
+![](./images/metamask-testnet-add-network.jpg)
 
 # Coint type for Cube
 
