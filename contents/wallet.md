@@ -13,21 +13,44 @@ You can add CubeChain mainnet and testnet to Metamask through [chainlist](https:
 add custom network manually:
 
 ## Mainnet
+>TO BE LAUNCH
+
+### chainid
+```
+1818
+```
+### rpc
 
 ```
-chainid: 1818
-rpc: https://http-mainnet.cube.network
-scan: https://scan.cube.network/
+https://http-mainnet.cube.network
+```
+
+### explorer
+```
+https://cubescan.network
 ```
 
 ![](./images/metamask-mainnet-add-network.jpg)
 
 ## Testnet
+>TO BE LAUNCH
+
+### chainid
+```
+1819
+```
+### rpc
+> There will be a rate limit. Currently is 50r/s per session/IP .
 
 ```
-chainid: 1819
-rpc: https://http-testnet.cube.network
-scan: https://scan-testnet.cube.network/
+https://http-testnet.cube.network
+https://http-testnet-sg.cube.network
+https://http-testnet-jp.cube.network
+https://http-testnet-us.cube.network
+```
+### explorer
+```
+https://testnet.cubescan.network
 ```
 
 ![](./images/metamask-testnet-add-network.jpg)
