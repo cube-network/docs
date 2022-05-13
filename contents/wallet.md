@@ -30,7 +30,7 @@ https://http-mainnet.cube.network
 https://cubescan.network
 ```
 
-![](./images/metamask-mainnet-add-network.jpg)
+![](./images/metamask-mainnet-add-network-new.jpg)
 
 ## Testnet
 >TO BE LAUNCH
@@ -53,7 +53,7 @@ https://http-testnet-us.cube.network
 https://testnet.cubescan.network
 ```
 
-![](./images/metamask-testnet-add-network.jpg)
+![](./images/metamask-testnet-add-network-new.jpg)
 
 # Coint type for Cube
 
