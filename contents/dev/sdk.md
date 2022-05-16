@@ -65,6 +65,28 @@ curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","metho
 }
 ```
 
+### eth_getLastFinalizedBlockNumber
+Query the block number of the latest finalized status
+
+#### Parameters
+
+------------
+none
+
+#### Example
+
+------------
+```shell
+curl -X POST -H "Content-Type: application/json" --data "{\"jsonrpc\":\"2.0\",\"method\":\"eth_getLastFinalizedBlockNumber\",\"params\":[],\"id\":1}" localhost:8545
+```
+```shell
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": 100
+}
+```
+
 ### eth_getDoubleSignPunishTransactionsByBlockNumber
 Returns the penalty transaction of violating multiple signatures in the block queried according to the block number
 #### Parameters
