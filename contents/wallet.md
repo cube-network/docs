@@ -33,7 +33,6 @@ https://cubescan.network
 ![](./images/metamask-mainnet-add-network-new.jpg)
 
 ## Testnet
->TO BE LAUNCH
 
 ### chainid
 ```
