@@ -65,8 +65,8 @@ curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","metho
 }
 ```
 
-### eth_getLastFinalizedBlockNumber
-Query the block number of the latest finalized status
+### eth_getLastFinalizedBlockInfo
+Query the block info of the latest finalized status
 
 #### Parameters
 
@@ -77,13 +77,16 @@ none
 
 ------------
 ```shell
-curl -X POST -H "Content-Type: application/json" --data "{\"jsonrpc\":\"2.0\",\"method\":\"eth_getLastFinalizedBlockNumber\",\"params\":[],\"id\":1}" localhost:8545
+curl -X POST -H "Content-Type: application/json" --data "{\"jsonrpc\":\"2.0\",\"method\":\"eth_getLastFinalizedBlockInfo\",\"params\":[],\"id\":1}" localhost:8545
 ```
 ```shell
 {
   "jsonrpc": "2.0",
   "id": 1,
-  "result": 100
+  "result": {
+    "Number": "0x91b",
+    "Hash": "0x80afd1753ed7a5ddc02188e6fe9e8e3fe5c5832f9415527081214ebe240e2e98"
+  }
 }
 ```
 
