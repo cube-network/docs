@@ -9,6 +9,7 @@
     - [Deployment](dev/deploy.md)
     - [On-chain Interaction](dev/sdk.md)
     - [About EIP1559](dev/about-eip1559.md)
+    - [About Finality](dev/about-finality.md)
     - [Contract](dev/contract.md)
     - [Private Chain](dev/private_chain.md)
     - [Graph Node](dev/graphnode.md)
