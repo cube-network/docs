@@ -19,7 +19,6 @@
     - [WalletConnect](dev/wallet-connect.md)
 - Announcement
     - [Announcement](Announcement.md)
-- [Resources](resources.md)
 - FAQ
     - [FAQ](faq.md)
 - Disclaimer
