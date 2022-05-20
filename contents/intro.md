@@ -75,6 +75,7 @@ Data Availability
 - Medium: https://medium.com/@Cube0x
 - GitHub: https://github.com/cube-network/
 - Mainnet Explorer: https://cubescan.network/
+- Testnet Explorer: https://testnet.cubescan.network/
 - Documentation: https://docs.cube.network/
 - Website: https://www.cube.network/
   
