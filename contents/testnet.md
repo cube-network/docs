@@ -32,23 +32,22 @@ wss://ws-testnet-archive.cube.network
 ```
 
 ## explorer
-```
+
 https://testnet.cubescan.network
-```
+
 
 ## faucet
 
-```
+
 https://faucet.cube.network
-```
+
 
 ## some util contracts
 
-> To be linked to the explorer.
 
-- WCUBE：0xB9164670A2F388D835B868b3D0D441fa1bE5bb00
-- Multicall:  0x5db2AB28beD8EBDDe5F7202F5a11fF7E78Ad1FB5
-- Multicall2: 0xD1C09D6DD5c81d441b2825D69d438BAac791BEeC
+- WCUBE：https://testnet.cubescan.network/en-us/address/0xb9164670a2f388d835b868b3d0d441fa1be5bb00?type=contract
+- Multicall:  https://testnet.cubescan.network/en-us/address/0x5db2ab28bed8ebdde5f7202f5a11ff7e78ad1fb5?type=contract
+- Multicall2: https://testnet.cubescan.network/en-us/address/0xd1c09d6dd5c81d441b2825d69d438baac791beec?type=contract
 
 ## genesis
 
