@@ -82,6 +82,7 @@ Or you can also looking to the `UTC-**`file under the `data/keystore` path to fi
     "000000000000000000000000000000000000F003": {
       "balance": "0x0",
       "init": {
+        "periodTime": "2592000",
         "lockedAccounts": [
           {
             "userAddress": "0x2FA024cA813449D315d71D49BdDF7c175C036729",

@@ -198,6 +198,7 @@ GenesisLock is used to manage token locking and release. Demo config is showed a
         "000000000000000000000000000000000000F003": {
             "balance": "0x0",
             "init": {
+                "periodTime": "2592000",
                 "lockedAccounts": [
                     {
                         "userAddress": "0x2FA024cA813449D315d71D49BdDF7c175C036729",
@@ -222,6 +223,8 @@ GenesisLock is used to manage token locking and release. Demo config is showed a
 ```
 
 `000000000000000000000000000000000000F003` is the address that Cube assignes to GenesisLock contract. This address is fixed and thus cannot be customized.
+
+`periodTime` is the release period in seconds
 
 `init.lockedAccounts` is the accounts info of token locking
 - `userAddress`: address of accounts
@@ -265,6 +268,45 @@ the info of validator contains:
 - `acceptDelegation`: whether accepting delegation or not
 
 One thing need to be explained more specifically is `rate`. The validator can take rate% of block rewards as commission, and the left part is the one that will be allocated according to their token staked.
+
+## Verify genesis
+
+### Check tool
+
+Compile the tool of checking genesis file by running
+```
+make all
+```
+
+And the tool `genesis-check` will be found in `build/bin`
+
+The source code of `genesis-check` is `cmd/genesis-check/main.go`
+
+### Check method
+
+Running the following command to generate genesis block hash from genesis config file
+```
+./genesis-check <genesis file>
+```
+
+The outputs looks like
+```
+Genesis Hash: <Genesis Hash>
+Is Mainnet: false
+Is Testnet: true
+```
+
+Then you may compare if the generated genesis hash is the expected one
+
+### Built-in genesis
+
+The genesis blocks of testnet and mainnet are hard-coding in binary. 
+
+Mainnet genesis block(not confirmed) is defined in `core.DefaultGenesisBlock()`, which is located in `core/genesis.go:453`
+
+Testnet genesis block is defined in `core.DefaultTestnetGenesisBlock()`, which is located in `core/genesis.go:468`
+
+Also, related type definations of corresponding genesis file are `Genesis`, `GenesisAlloc`, `GenesisAccount`, `Init`, `LockedAccount` and `ValidatorInfo`, which are all located in `core/genesis.go`
 
 ## mainnet
 [TBD]
