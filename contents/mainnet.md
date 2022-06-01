@@ -9,8 +9,7 @@
 ## rpc
 
 ```
-https://http-mainnet.cube.network
-wss://ws-mainnet.cube.network
+<TO BE LAUNCH>
 ```
 
 ## explorer
