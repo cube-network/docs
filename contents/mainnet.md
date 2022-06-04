@@ -21,6 +21,8 @@ https://cubescan.network
 
 **Genesis block hash**: 0x878c0e84bf867ddd5ede830d3b17f853eeb985530e1a74468ce898094427d41f
 
+> `MainnetGenesisHash` in the code: <https://github.com/cube-network/Cube/blob/master/params/config.go#L30>
+
 [View or download mainnet genesis file](/static/mainnet_genesis.json ':ignore')
 
 ### How to check/verify the mainnet genesis file
