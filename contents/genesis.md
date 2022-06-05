@@ -18,7 +18,7 @@ The name of chain config item is `config`,including `chainId`, hard fork info, c
 ```json
 {
     "config": {
-        "chainId": 1818,
+        "chainId": 1819,
         "homesteadBlock": 0,
         "eip150Block": 0,
         "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
