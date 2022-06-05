@@ -133,6 +133,7 @@ Customize the following config items
 - `config.chaos` Consensus-related parameters in chain config.
     - `period` Block interval time.
     - `epoch` Number of blocks in one epoch
+    - `attestationDelay` Number of blocks in which attestation should delay
 - `alloc` Token allocation of accounts and system contracts, as well as initialization of system contracts. If you wish to compile it yourself, you can configure `deployedBytecode` to the `code` field after compilation. 
 - `validators` Validator info settings. Including its `address`, `manager` address, gas sharing `rate` and `stake` the amount of native token.
 

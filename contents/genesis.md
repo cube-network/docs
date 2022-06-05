@@ -33,8 +33,8 @@ The name of chain config item is `config`,including `chainId`, hard fork info, c
         "chaos": {
             "period": 3,
             "epoch": 200,
-            "attestationDelay": 2
-
+            "attestationDelay": 2,
+            "rule": 1
         }
     }
 }
@@ -43,7 +43,7 @@ Specifically, `chainId` is blockchain identifier which was defined in EIP-155 to
 
 `homesteadBlock` ~ `muirGlacierBlock` are the hard fork info inherited from ethereum, which should be all zero
 
-`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval (whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch. `attestationDelay` is the number of blocks, before which we can do consensus.
+`chaos` is the consensus engine config of Cube. In detail, `period` is the block interval (whose unit is second) as well as `epoch` is the number of blocks which can be produced in an epoch. `attestationDelay` is the number of blocks, before which we can do consensus. `rule` indicates the rewards plan. Usually `rule` is only set in Testnet and should be omitted otherwise.
 
 One thing should be mentioned is that the chain config will not be included in the genesis block although it will be persisted on disk. Therefore it could be changed afterwards.
 
