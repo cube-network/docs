@@ -8,8 +8,29 @@
 ```
 ## rpc
 
+> There will be a rate limit. Currently is 50r/s per session/IP .
+
 ```
-<TO BE LAUNCH>
+https://http-mainnet.cube.network
+wss://ws-mainnet.cube.network
+
+https://http-mainnet-sg.cube.network 
+wss://ws-mainnet-sg.cube.network
+
+https://http-mainnet-us.cube.network
+wss://ws-mainnet-us.cube.network
+
+```
+
+## archive nodes
+
+> There will be a rate limit. Currently is 50r/s per session/IP .
+> 
+> Currently available namespace: ["eth", "net", "web3"]
+
+```
+https://http-mainnet-archive.cube.network
+wss://ws-mainnet-archive.cube.network
 ```
 
 ## explorer
