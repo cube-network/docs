@@ -13,7 +13,6 @@ You can add CubeChain mainnet and testnet to Metamask through [chainlist](https:
 add custom network manually:
 
 ## Mainnet
->TO BE LAUNCH
 
 ### chainid
 ```
