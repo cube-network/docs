@@ -22,6 +22,10 @@ add custom network manually:
 
 ```
 https://http-mainnet.cube.network
+
+https://http-mainnet-sg.cube.network 
+
+https://http-mainnet-us.cube.network
 ```
 
 ### explorer
