@@ -30,10 +30,10 @@ https://http-mainnet-us.cube.network
 
 ### explorer
 ```
-https://cubescan.network
+https://www.cubescan.network
 ```
 
-![](./images/metamask-mainnet-add-network-new.jpg)
+![](./images/metamask-mainnet-add-network-new2.jpg)
 
 ## Testnet
 

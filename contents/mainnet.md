@@ -33,7 +33,7 @@ wss://ws-mainnet-archive.cube.network
 
 ## explorer
 ```
-https://cubescan.network
+https://www.cubescan.network
 ```
 
 ## genesis
