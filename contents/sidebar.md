@@ -1,4 +1,5 @@
 - [About Cube](intro.md)
+- [Tutorials](tutorial.md)
 - [Wallet](wallet.md)
 - Bridge
 - [Asset-Peg Manual](bridge.md)
