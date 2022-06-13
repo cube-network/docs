@@ -42,12 +42,15 @@ https://testnet.cubescan.network
 https://faucet.cube.network
 
 
-## some util contracts
+## tool contract address
 
+- WCUBE Address：[0xb9164670a2f388d835b868b3d0d441fa1be5bb00][wcube]
+- Multicall Address:  [0x5db2ab28bed8ebdde5f7202f5a11ff7e78ad1fb5][multicall]
+- Multicall2 Address:  [0xd1c09d6dd5c81d441b2825d69d438baac791beec][multicall2]
+  [wcube]:https://testnet.cubescan.network/en-us/address/0xb9164670a2f388d835b868b3d0d441fa1be5bb00?type=contract
+  [multicall]:https://testnet.cubescan.network/en-us/address/0x5db2ab28bed8ebdde5f7202f5a11ff7e78ad1fb5?type=contract
+  [multicall2]:https://testnet.cubescan.network/en-us/address/0xd1c09d6dd5c81d441b2825d69d438baac791beec?type=contract
 
-- WCUBE：https://testnet.cubescan.network/en-us/address/0xb9164670a2f388d835b868b3d0d441fa1be5bb00?type=contract
-- Multicall:  https://testnet.cubescan.network/en-us/address/0x5db2ab28bed8ebdde5f7202f5a11ff7e78ad1fb5?type=contract
-- Multicall2: https://testnet.cubescan.network/en-us/address/0xd1c09d6dd5c81d441b2825d69d438baac791beec?type=contract
 
 ## genesis
 

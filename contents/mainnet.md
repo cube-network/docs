@@ -36,6 +36,16 @@ wss://ws-mainnet-archive.cube.network
 https://www.cubescan.network
 ```
 
+## tool contract address
+- WCUBE Address：[0x9d3f61338d6eb394e378d28c1fd17d5909ac6591][wcube]
+- Multicall Address:  [0x28d2ebdb36369db1c51355cdc0898754d1a1c3c5][multicall]
+- Multicall2 Address:  [0x511b6bdf973bccda108059f082807bc5f2ef6b8b][multicall2]
+  [wcube]:https://www.cubescan.network/en-us/address/0x9d3f61338d6eb394e378d28c1fd17d5909ac6591
+  [multicall]:https://www.cubescan.network/en-us/address/0x28d2ebdb36369db1c51355cdc0898754d1a1c3c5
+  [multicall2]:https://www.cubescan.network/en-us/address/0x511b6bdf973bccda108059f082807bc5f2ef6b8b
+
+
+
 ## genesis
 
 **Genesis block hash**: 0x878c0e84bf867ddd5ede830d3b17f853eeb985530e1a74468ce898094427d41f
