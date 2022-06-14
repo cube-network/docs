@@ -66,53 +66,25 @@ Data Availability
 <tr style="background:rgba(0,0,0,0)"><td>50k+ TPS</td></tr>
 </table>
 
-[comment]: <> (## Vision & Architecture)
+## Vision & Architecture
 
-[comment]: <> (Cube is a public blockchain that is designed to collaborate and promote the development)
+Cube is a public blockchain that is designed to collaborate and promote the development of the industry, taking into account the current needs of decentralized applications and the future innovation and development. It takes high-performance underlying permissionless blockchain as a new starting point, realizes the ultimate performance optimization of single-chains in phases, supports and promotes the development of Web 3.0 in modular layers, solves storage pain points, forming a permissionless blockchain with complete underlying capabilities that everyone can participate in.
 
-[comment]: <> (of the industry, taking into account the current needs of decentralized applications and the)
+#### Architecture
 
-[comment]: <> (future innovation and development. It takes high-performance underlying permissionless)
+Cube adopts a modular architecture which is divided into three layers: Execution Layer, Settlement Layer and Data Availability Layer.
 
-[comment]: <> (blockchain as a new starting point, realizes the ultimate performance optimization of)
+• Execution Layer: responsible for the execution of almost all contract-based transactions and supports decentralized applications. It is the combination of ZK Rollup and Collaborative Rollup, where the execution results are submitted to the settlement layer and the settlement layer establishes undeniable security as well as objective finality.  
 
-[comment]: <> (single-chains in phases, supports and promotes the development of Web 3.0 in modular)
+• Settlement layer: responsible for verifying and settling the execution results of the execution layer and is also the asset layer, responsible for the management and settlement of the assets on the chain.  
 
-[comment]: <> (layers, solves storage pain points, forming a permissionless blockchain with complete)
+• Data availability layer: focusing on data storage, it will store permanently high-value data based on data sharding, and with data availability sampling technologies it can support reliable verification for light clients.  
 
-[comment]: <> (underlying capabilities that everyone can participate in.)
+![](./images/cube-testnet/cube-architecture.png)
 
-[comment]: <> (#### Architecture)
-
-[comment]: <> (Cube adopts a modular architecture which is divided into three)
-
-[comment]: <> (layers: Execution Layer, Settlement Layer and Data Availability Layer.)
-
-[comment]: <> (• Execution Layer: responsible for the execution of almost all contract-based transactions and supports decentralized applications. It is the combination of ZK Rollup and)
-
-[comment]: <> (Collaborative Rollup, where the execution results are submitted to the settlement)
-
-[comment]: <> (layer and the settlement layer establishes undeniable security as well as objective)
-
-[comment]: <> (finality.  )
-
-[comment]: <> (• Settlement layer: responsible for verifying and settling the execution results of the)
-
-[comment]: <> (execution layer and is also the asset layer, responsible for the management and)
-
-[comment]: <> (settlement of the assets on the chain.  )
-
-[comment]: <> (• Data availability layer: focusing on data storage, it will store permanently high-value)
-
-[comment]: <> (data based on data sharding, and with data availability sampling technologies it can)
-
-[comment]: <> (support reliable verification for light clients.  )
-
-[comment]: <> (![]&#40;./images/cube-testnet/cube-architecture.png&#41;)
-
-[comment]: <> ([Read the technical-white paper for more information][cube-information])
+[Read the technical-white paper for more information][cube-information]
  
-[comment]: <> ( [cube-information]:https://github.com/cube-network/techical-whitepaper)
+ [cube-information]:https://github.com/cube-network/techical-whitepaper
 
 ## Interact with us on Social Media
 
@@ -123,6 +95,7 @@ Data Availability
 - Telegram 1: https://t.me/Cube_Network  
 - Telegram 2: https://t.me/Cube_network2  
 - Telegram 3: https://t.me/cube_network3  
+- Developer-Telegram : https://t.me/CubeDevs       
 - Discord：https://discord.gg/cubenetwork  
 - GitHub: https://github.com/cube-network/  
 - Mainnet Explorer: https://cubescan.network/  
