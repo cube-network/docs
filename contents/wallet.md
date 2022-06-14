@@ -96,7 +96,7 @@ Block Explorer URL: https://www.cubescan.network
 ```
 
  [mask]:https://metamask.io/download/
- [steps]:https://www.google.com/url?q=https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-started-with-MetaMask&sa=D&source=docs&ust=1655184704841498&usg=AOvVaw3lko2JZQx3WAoJ0fMtKmUJ
+ [steps]:https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-started-with-MetaMask
  [video]:https://www.youtube.com/watch?t=32&v=Af_lQ1zUnoM&feature=youtu.be
  [these_steps]:https://docs.cube.network/#/
 
