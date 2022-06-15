@@ -1,6 +1,6 @@
 # Summary
 
-Many wallets support CubeChain, such as Metamask, etc.
+Many wallets support CubeChain, such as Metamask, Coinbase wallet, Ledger etc.
 
 > NOTE: Check compitibility before using wallet.
 
@@ -56,6 +56,18 @@ https://testnet.cubescan.network
 ```
 
 ![](./images/metamask-testnet-add-network-new.jpg)
+
+
+# Coinbase Wallet
+
+CubeChain EVM fully supports [Coinbase Wallet](https://www.coinbase.com/wallet), a leading wallet for Ethereum based blockchains. In order to interact with the CubeChain using Coinbase Wallet, you need to add the CubeChain network.
+
+The most convenient way to do this is via [Chainlist](https://chainlist.org/), which curates a list of EVM networks. The CubeChain EVM mainnet and testnet are listed on Chainlist with ChainID 1818 and 1819, respectively. To add a chain to Coinbase Wallet, make sure the [Chrome browser extension](https://www.coinbase.com/wallet/getting-started-extension) is enabled. Search “Cube” and press the “Connect Wallet” button, then "Connect". Confirm the connection if prompted. 
+
+Now you are set up and ready to deposit, withdraw or send CUBE!
+![](./images/coinbasewallet.png)
+
+If you want to add the networks manually, you can find rpc and explorer infomation showing in the `MetaMask` section, or from [Mainnet info](mainnet.md) and [Testnet info](testnet.md)
 
 # Ledger
 
