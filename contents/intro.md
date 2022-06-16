@@ -95,6 +95,7 @@ Cube adopts a modular architecture which is divided into three layers: Execution
 - Telegram 1: https://t.me/Cube_Network  
 - Telegram 2: https://t.me/Cube_network2  
 - Telegram 3: https://t.me/cube_network3  
+- Telegram 4: https://t.me/cube_network04  
 - Developer-Telegram : https://t.me/CubeDevs       
 - Discord：https://discord.gg/cubenetwork  
 - GitHub: https://github.com/cube-network/  

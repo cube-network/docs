@@ -44,7 +44,9 @@ https://www.cubescan.network
   [multicall]:https://www.cubescan.network/en-us/address/0x28d2ebdb36369db1c51355cdc0898754d1a1c3c5
   [multicall2]:https://www.cubescan.network/en-us/address/0x511b6bdf973bccda108059f082807bc5f2ef6b8b
 
+## ERC-20 CUBE
 
+ERC-20 CUBE address on Ethereum: [0x6df241103F89983b1fB86244C8601E44ea55368C](https://etherscan.io/token/0x6df241103f89983b1fb86244c8601e44ea55368c)
 
 ## genesis
 
