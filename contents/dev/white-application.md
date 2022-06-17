@@ -6,3 +6,5 @@ Deployment rights will be opened by taking a whitelist approach, here is the app
 
 
  [link]:https://docs.google.com/forms/d/e/1FAIpQLSeV8SDmpsGode0ecN1bOSdPjPDkSKaLzwZfejxIII0qdcj9_w/viewform
+
+![](../images/cube-testnet/cube-white.png)
