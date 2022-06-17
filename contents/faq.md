@@ -13,6 +13,11 @@ can switch to Cube’s application development at no cost and get the rewards fo
 ecosystem development.
 
 
+# Gas Price
+
+The current gas price of cube main network is **200Gwei**, the gas price of test network is 2.5Gwei, the default of metamask main network is 2.5Gwei, if you use remix deployment, you need to adjust the gas price manually, if you use hardhat deployment, you can configure it in hardhat.config.js configuration file to adjust the gas price to 200Gwei
+
+
 # Metamask Lagging 
 
 Slow response when inputting tansfer amount, fetching gasprice, etc. It is a chrome's known issue according to the following issue:
@@ -68,7 +73,7 @@ Developer discord: https://discord.gg/cubenetwork
 
 # Which wallets currently support cube chain？
 
-Bitkeep, Coinhub, Itoken, Coinbase, Walletnow, Ledger，they are ok。
+Metamask,Bitkeep, Coinhub, Itoken, Coinbase, Walletnow, Ledger，they are ok。
 
 # Where can we buy cube coin?
 

@@ -18,6 +18,7 @@
     - [Testnet](testnet.md)
     - [DApp-Governance](dev/dapp-gov.md)
     - [WalletConnect](dev/wallet-connect.md)
+    - [Whitelist Application](dev/white-application.md)
 - Announcement
     - [Announcement](Announcement.md)
 - FAQ
