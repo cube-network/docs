@@ -47,6 +47,10 @@ In this section, we have provided tutorials on usage of different components of 
 
 * Tutorial on [Is cube compatible with evm？](./faq.md)
 
+* Tutorial on [White Application](./dev/white-application.md)
+
+* Tutorial on [Gas Price](./faq.md)
+
 * Tutorial on [Metamask Lagging](./faq.md)
 
 * Tutorial on [Transaction pending for a long time](./faq.md)
