@@ -22,6 +22,7 @@ The first batch of supported currencies: BTC/ETH/USDT/USDC/DAI
 | USDT           | Cube      | 0x79F1520268A20c879EF44d169A4E3812D223C6de |
 | USDC           | Cube      | 0x00f0D8595797943c12605cD59bc0D9f63D750cCf |
 | DAI            | Cube      | 0x3a1F6e3E6F26E92bB0D07841EB68F8E84f39751E |
+| HT             | Cube      | 0xFE99Ea1f1FD9C121Efb602bD4f098f9090c52909 |
 
  
 
