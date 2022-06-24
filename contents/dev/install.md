@@ -29,3 +29,12 @@ please refer [deployment](/dev/deploy.md)
 
 ## Network
 Program will connect into `mainnet` after started. If you want to connect the public testnet, you can add option `--testnet` to command when starting. 
+
+# Using docker images
+
+If you prefer to run a cube-client by docker container, then you can find the official docker images at [cubenetwork/cube-client](https://hub.docker.com/r/cubenetwork/cube-client).
+
+More over, there's a `dockerfile` at the root directory of the [Cube repository](https://github.com/cube-network/Cube), you can build your own images according to your need.
+```
+docker build -t cubenetwork/cube-client .
+```
